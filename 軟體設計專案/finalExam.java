@@ -68,18 +68,21 @@ public class finalExam extends Frame implements ActionListener, MouseListener {
             if (!checkNumber(game, 0, 0)) {
                 g.drawOval(110, 110, 80, 80);
                 game[0][0] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 200 && x1 < 300 && y1 > 100 && y1 < 200) {
             if (!checkNumber(game, 0, 1)) {
                 g.drawOval(210, 110, 80, 80);
                 game[0][1] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 300 && x1 < 400 && y1 > 100 && y1 < 200) {
             if (!checkNumber(game, 0, 2)) {
                 g.drawOval(310, 110, 80, 80);
                 game[0][2] = 1;
+                checkGame();
                 computer();
             }
         }
@@ -88,18 +91,21 @@ public class finalExam extends Frame implements ActionListener, MouseListener {
             if (!checkNumber(game, 1, 0)) {
                 g.drawOval(110, 210, 80, 80);
                 game[1][0] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 200 && x1 < 300 && y1 > 200 && y1 < 300) {
             if (!checkNumber(game, 1, 1)) {
                 g.drawOval(210, 210, 80, 80);
                 game[1][1] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 300 && x1 < 400 && y1 > 200 && y1 < 300) {
             if (!checkNumber(game, 1, 2)) {
                 g.drawOval(310, 210, 80, 80);
                 game[1][2] = 1;
+                checkGame();
                 computer();
             }
         }
@@ -108,18 +114,21 @@ public class finalExam extends Frame implements ActionListener, MouseListener {
             if (!checkNumber(game, 2, 0)) {
                 g.drawOval(110, 310, 80, 80);
                 game[2][0] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 200 && x1 < 300 && y1 > 300 && y1 < 400) {
             if (!checkNumber(game, 2, 1)) {
                 g.drawOval(210, 310, 80, 80);
                 game[2][1] = 1;
+                checkGame();
                 computer();
             }
         } else if (x1 > 300 && x1 < 400 && y1 > 300 && y1 < 400) {
             if (!checkNumber(game, 2, 2)) {
                 g.drawOval(310, 310, 80, 80);
                 game[2][2] = 1;
+                checkGame();
                 computer();
             }
         }
