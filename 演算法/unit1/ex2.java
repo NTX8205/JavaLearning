@@ -1,5 +1,6 @@
 /*
-(2).矩陣乘法 algorithm 1.4：(p.9)二個矩陣相乘：A(m*n)及 B(n*k)，輸入 m，n，k 及矩陣(A 及 B),將 C(m*k)=A(m*n)x B(n*k)印出來*/
+(2).矩陣乘法
+algorithm 1.4：(p.9)二個矩陣相乘：A(m*n)及 B(n*k)，輸入 m，n，k 及矩陣(A 及 B),將 C(m*k)=A(m*n)x B(n*k)印出來*/
 package 演算法.unit1;
 
 import java.util.Scanner;
